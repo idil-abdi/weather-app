@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { Cloud, CloudRain, Sun, CloudDrizzle, Search, MapPin, Droplets, Wind, Eye, Gauge } from 'lucide-react';
 import "./App.css";
 
-const API_KEY = '7b6a6f9b787cac1ee11807f1b7294359'; // Replace with your OpenWeatherMap API key
 
 function WeatherApp() {
   const [city, setCity] = useState('');
